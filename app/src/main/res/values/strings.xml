@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SharedElementTransition</string>
+    <string name="cheeses">Cheeses</string>
+
+
+    <string name="transition_cheese_thumbnail" translatable="false">transition_cheese_thumbnail</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus tortor ut nulla maximus molestie. Phasellus a turpis volutpat, egestas ex nec, laoreet sem. Vivamus aliquet felis ac urna semper accumsan. Curabitur placerat nulla vitae lacus hendrerit viverra. Duis ullamcorper mauris eget sollicitudin consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras ut elit et ante dapibus rhoncus. Vivamus libero nisi, consectetur bibendum diam ut, tempus pulvinar lorem. Nam tempus erat est, consequat mattis odio feugiat luctus. Suspendisse eu vulputate dui, laoreet pharetra orci. Suspendisse dolor diam, aliquet et gravida et, maximus non orci. Nullam fermentum sed orci varius hendrerit. Suspendisse eu nulla id turpis rhoncus interdum sed ac dolor. Vestibulum tincidunt interdum neque eu pharetra. Sed imperdiet blandit magna, vel semper orci molestie id. Maecenas non eros non nisi placerat finibus vitae non diam.
+
+Morbi congue, est id efficitur sodales, felis ex dictum quam, sit amet dignissim ante ipsum id felis. Sed scelerisque ex dolor, sed elementum dui semper nec. Nullam non viverra justo. Donec ac libero quam. Nulla facilisi. Nullam dignissim lacinia eros sed mollis. Nullam et velit a risus blandit molestie id et quam. Nam rutrum purus id mi finibus auctor. Nunc tempus consectetur sapien et porttitor.
+
+Praesent viverra id neque sit amet aliquam. Nunc interdum dui eu feugiat lacinia. Proin hendrerit lorem augue, et sagittis libero semper nec. Donec et consectetur lacus. Sed lobortis porta sollicitudin. Fusce luctus at ante ac dignissim. Proin vehicula leo vehicula nunc gravida dapibus. Vestibulum volutpat rutrum molestie. Nunc vitae risus sed quam bibendum rhoncus id ac quam. Aenean id diam pulvinar, sodales odio sit amet, iaculis massa.
+
+Sed consequat tincidunt sapien id commodo. Praesent vestibulum finibus leo quis rhoncus. Cras eget fermentum neque. Donec gravida vulputate quam eu efficitur. Aliquam in iaculis velit. Vivamus a ligula ac elit luctus condimentum. Donec accumsan turpis lectus, quis commodo dui pharetra sit amet. Nam eget blandit velit. Suspendisse dolor velit, luctus sed euismod id, sodales et lacus. Proin lacinia efficitur ultricies. Fusce egestas elit elit, et pellentesque dolor aliquam eget. Maecenas non orci eu nisl sollicitudin bibendum. Duis lectus arcu, aliquam sit amet gravida vitae, cursus vehicula leo.
+
+Donec a risus quis ex fringilla convallis. Nam elit elit, suscipit vitae tempus vitae, aliquam et ipsum. Vestibulum volutpat tortor tortor. Vestibulum auctor sollicitudin purus, eu laoreet urna ultricies hendrerit. Duis ut mauris in sapien aliquam eleifend eget eu turpis. Integer lacus elit, rutrum quis sapien non, consequat dignissim erat. Fusce sit amet luctus leo, quis feugiat nulla. Sed vulputate tortor ut felis hendrerit, sit amet maximus enim aliquam. Vestibulum fermentum venenatis justo, non gravida arcu venenatis in. Donec ut porta ipsum. Sed bibendum, ex sit amet tempor eleifend, purus tellus dictum nulla, quis ultrices quam mi vel ligula. Maecenas non posuere lorem, a tincidunt ex.</string>
+
+</resources>

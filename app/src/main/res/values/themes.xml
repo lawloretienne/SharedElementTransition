@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SharedElementTransition" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorButtonNormal">@color/primary</item>
+        <item name="colorControlActivated">@color/primary</item>
+    </style>
+
+    <style name="Theme.SharedElementTransition" parent="Base.Theme.SharedElementTransition"/>
+
+    <style name="Theme.SharedElementTransition.CheesesActivity" parent="Theme.SharedElementTransition">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <!--<item name="android:windowEnterTransition">@transition/cheeses_enter</item>-->
+        <!--<item name="android:windowExitTransition">@transition/cheeses_exit</item>-->
+    </style>
+
+    <style name="Theme.SharedElementTransition.CheeseDetailActivity" parent="Theme.SharedElementTransition">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/ten_percent_transparency_black</item>
+
+        <!--<item name="android:windowEnterTransition">@transition/cheeses_enter</item>-->
+        <!--<item name="android:windowExitTransition">@transition/cheeses_exit</item>-->
+
+        <!--<item name="android:windowSharedElementEnterTransition">@transition/cheese_detail_shared_element_enter</item>-->
+        <!--<item name="android:windowSharedElementExitTransition">@transition/cheese_detail_shared_element_exit</item>-->
+    </style>
+
+</resources>
