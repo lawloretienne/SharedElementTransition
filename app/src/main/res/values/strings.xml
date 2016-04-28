@@ -4,6 +4,8 @@
 
 
     <string name="transition_cheese_thumbnail" translatable="false">transition_cheese_thumbnail</string>
+    <string name="transition_status_bar" translatable="false">status_bar</string>
+    <string name="transition_nav_bar" translatable="false">nav_bar</string>
 
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus tortor ut nulla maximus molestie. Phasellus a turpis volutpat, egestas ex nec, laoreet sem. Vivamus aliquet felis ac urna semper accumsan. Curabitur placerat nulla vitae lacus hendrerit viverra. Duis ullamcorper mauris eget sollicitudin consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras ut elit et ante dapibus rhoncus. Vivamus libero nisi, consectetur bibendum diam ut, tempus pulvinar lorem. Nam tempus erat est, consequat mattis odio feugiat luctus. Suspendisse eu vulputate dui, laoreet pharetra orci. Suspendisse dolor diam, aliquet et gravida et, maximus non orci. Nullam fermentum sed orci varius hendrerit. Suspendisse eu nulla id turpis rhoncus interdum sed ac dolor. Vestibulum tincidunt interdum neque eu pharetra. Sed imperdiet blandit magna, vel semper orci molestie id. Maecenas non eros non nisi placerat finibus vitae non diam.
 

@@ -129,15 +129,22 @@ public class CheesesFragment extends Fragment implements CheesesAdapter.OnItemCl
         Resources resources = view.getResources();
 
         Pair<View, String> p1 = Pair.create(venueThumbnailImageView, resources.getString(R.string.transition_cheese_thumbnail));
+
+        View decor = getActivity().getWindow().getDecorView();
+        View statusBar = decor.findViewById(android.R.id.statusBarBackground);
+        View navBar = decor.findViewById(android.R.id.navigationBarBackground);
+//        View actionBar = decor.findViewById(getResources().getIdentifier(
+//                "action_bar_container", "id", "android"));
+
+        Pair<View, String> p2 = Pair.create(statusBar, resources.getString(R.string.transition_status_bar));
+        Pair<View, String> p3 = Pair.create(navBar, resources.getString(R.string.transition_nav_bar));
+
         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(getActivity(),
-                p1);
+                p1, p2, p3);
+
         ActivityCompat.startActivity(getActivity(), intent, options.toBundle());
 ////            startActivity(intent);
 
     }
     // endregion
-
-    // region Helper Methods
-    // endregion
-
 }
