@@ -12,9 +12,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 
 import com.etiennelawlor.sharedelementtransition.R;
 import com.etiennelawlor.sharedelementtransition.activities.CheeseDetailsActivity;
@@ -142,7 +144,10 @@ public class CheesesFragment extends Fragment implements CheesesAdapter.OnItemCl
 
         Pair<View, String> p1 = Pair.create(venueThumbnailImageView, resources.getString(R.string.transition_cheese_thumbnail));
 
-        View decor = getActivity().getWindow().getDecorView();
+        Window window = getActivity().getWindow();
+        window.setStatusBarColor(getResources().getColor(R.color.primary_dark));
+
+        View decor = window.getDecorView();
         View statusBar = decor.findViewById(android.R.id.statusBarBackground);
         View navBar = decor.findViewById(android.R.id.navigationBarBackground);
 //        View actionBar = decor.findViewById(getResources().getIdentifier(
