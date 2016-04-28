@@ -41,6 +41,7 @@ public class CheesesFragment extends Fragment implements CheesesAdapter.OnItemCl
     // region Member Variables
     private CheesesAdapter cheesesAdapter;
     private LinearLayoutManager layoutManager;
+    private boolean upNav;
     // endregion
 
     // region Constructors
@@ -66,7 +67,13 @@ public class CheesesFragment extends Fragment implements CheesesAdapter.OnItemCl
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        if(getArguments() != null){
+            upNav = getArguments().getBoolean("up_nav");
+        }
+
         setHasOptionsMenu(true);
+
+
     }
 
     @Override
@@ -86,7 +93,12 @@ public class CheesesFragment extends Fragment implements CheesesAdapter.OnItemCl
 
         final ActionBar ab = ((AppCompatActivity) getActivity()).getSupportActionBar();
         if (ab != null) {
+            ab.setDisplayHomeAsUpEnabled(true);
             ab.setTitle(getString(R.string.cheeses));
+
+            if(!upNav){
+                ab.setHomeAsUpIndicator(R.drawable.ic_menu);
+            }
         }
 
         layoutManager = new LinearLayoutManager(getActivity());

@@ -9,13 +9,19 @@
         android:theme="@style/Theme.SharedElementTransition">
 
         <activity
-            android:name=".activities.CheesesActivity"
+            android:name=".activities.MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.SharedElementTransition.CheesesActivity">
+            android:theme="@style/Theme.SharedElementTransition.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.CheesesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SharedElementTransition.CheesesActivity">
         </activity>
 
         <activity

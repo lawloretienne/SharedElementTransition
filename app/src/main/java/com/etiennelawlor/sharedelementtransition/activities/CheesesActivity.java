@@ -3,6 +3,7 @@ package com.etiennelawlor.sharedelementtransition.activities;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 
 import com.etiennelawlor.sharedelementtransition.R;
 import com.etiennelawlor.sharedelementtransition.fragments.CheesesFragment;
@@ -36,4 +37,16 @@ public class CheesesActivity extends AppCompatActivity {
         }
     }
     // endregion
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            // Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                supportFinishAfterTransition();
+//                NavUtils.navigateUpFromSameTask(this);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

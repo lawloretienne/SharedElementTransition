@@ -12,6 +12,17 @@
 
     <style name="Theme.SharedElementTransition" parent="Base.Theme.SharedElementTransition"/>
 
+    <style name="Theme.SharedElementTransition.MainActivity" parent="Theme.SharedElementTransition">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/ten_percent_transparency_black</item>
+
+        <!--<item name="android:windowSharedElementsUseOverlay">false</item>-->
+
+        <!--<item name="android:windowEnterTransition">@transition/cheeses_enter</item>-->
+        <!--<item name="android:windowExitTransition">@transition/cheeses_exit</item>-->
+    </style>
+
+
     <style name="Theme.SharedElementTransition.CheesesActivity" parent="Theme.SharedElementTransition">
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <!--<item name="android:statusBarColor">@color/ten_percent_transparency_black</item>-->
