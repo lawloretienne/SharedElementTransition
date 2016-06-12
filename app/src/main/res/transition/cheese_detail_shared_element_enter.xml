@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
-    android:startDelay="1000" android:duration="1200"
     android:transitionOrdering="together">
     <changeBounds/>
     <changeTransform/>
